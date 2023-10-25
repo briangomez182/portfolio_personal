@@ -403,6 +403,26 @@ h6,
   font-size: 1rem;
 }
 
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h400{
+  height: 400px;
+}
+
+.h500{
+  height: 500px;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -12532,7 +12552,7 @@ h5,
 .btn.btn-primary {
   background: var(--main);
   border: 1px solid var(--main) !important;
-  color: #000000 !important;
+  color: #fff !important;
 }
 
 .btn.btn-primary:hover {
@@ -13266,7 +13286,7 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
